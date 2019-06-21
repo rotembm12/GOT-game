@@ -31,7 +31,7 @@ function initGame(){
     let screen = `
     <div class="col-8 text-center justify-content-center" style="margin:15px">
         <div class="text-center instrDiv">
-            <h1>Welcome to Nadav, Reut and Rotem's Game</h1>
+            <h1>Welcome to Game of thrones world</h1>
             <br>
             <h4>Play with the console open for instructions</h4>
             <br>
