@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GOT Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <style>
+        *, html, body {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("./images/wallpaper.png");
+            height: 100vh;                
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .row, .card-body, .card-top{
+            padding: 0;
+            margin: 0;
+        }
+        .card {
+            margin: 1.5px
+        }
+        .card:hover {
+            box-shadow: 2px 2px 4px 2px rgba(120, 120, 120, 0.4)
+        }
+        .card-top{
+            width: 100%;
+            min-height: 30%;
+            max-height: 50%;
+            overflow:hidden;
+        }
+        .myCard {
+            min-height: 100px;
+            max-height: 450px;
+            margin: 15px 20px;
+            padding: 0;
+        }
+        .optCard {
+            margin-top:200px;
+            margin-bottom: 40px;
+        }
+        .img-fluid{
+            height: 100% !important;
+            width:100%;
+        }
+        .img-fight{
+            width:100% !important;
+            height:100% !important;
+        }
+        .fightRow {
+            height: 80vh;
+            background-color: rgba(252, 252, 252, 0.555);
+        }
+
+        .fightCard {
+            margin: 20px auto;
+            min-width: 280px !important;
+        }
+        .arena {
+            margin: 20px auto;
+        }
+        #playerCard {
+            position: absolute;
+            background-color: #fff;
+            left: 50px;
+            min-width:200px !important;
+
+        }
+        #enemyCard {
+            position: absolute;
+            background-color: #fff;
+            right: 50px;
+            min-width:200px !important;
+        }
+        .playbtn{
+            margin-top: 30px;
+            width: 50%;
+        }
+        .newgamebtn{
+            margin-top: 10px;
+            width: 50%;
+        }
+        progress{
+            width:90%;
+            margin: 0 auto;
+        }
+        .blast{
+            position: absolute;
+            z-index: 10;
+        }
+        .instrDiv{
+            background-color:white;
+            height:100%;
+            margin: 0 auto;
+            opacity: 0.9;
+            padding: 2%;
+        }
+
+    </style>
+</head>
+<body>
+    <div onload="renderCards()" id="gameScreen" class="row justify-content-center"></div> <!--Game html will be injected here-->
+    
+    
+    <script src="js/gotJsondata.js"></script>
+    <script src="js/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+                  
+        
+    </script>
+</body>
+</html>
